@@ -1,0 +1,188 @@
+Package: libcamera-ipa
+Source: libcamera
+Version: 0.7.0-1ubuntu2+t510.5
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6103
+Depends: libc6 (>= 2.38), libcamera0.7 (>= 0.7.0-1ubuntu2+t510.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14)
+Breaks: libcamera0 (<< 0.0.3-1~)
+Replaces: libcamera0 (<< 0.0.3-1~)
+Filename: pool/main/l/libcamera-ipa/libcamera-ipa_0.7.0-1ubuntu2+t510.5_arm64.deb
+Size: 77532
+MD5sum: 37cdf3dbb5544ac43859ec9350425aae
+SHA1: 62d1a6d9c52d52fc48cd05d6f85ab5276c4cf765
+SHA256: 356a70e4f30e85dd91a90b4a738bf8b4deb61fdb2f8d01969d9616d988e826d1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libcamera.org/
+Description: complex camera support library (IPA modules)
+ libcamera is a complex camera support library which handles low-level
+ control of the camera devices, providing a unified higher-level
+ programming interface to the applications.
+ .
+ This package contains the libcamera IPA (Image Processing Algorithms) modules.
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+
+Package: libcamera0.7
+Source: libcamera
+Version: 0.7.0-1ubuntu2+t510.5
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2445
+Depends: libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.3.1), libgles2, libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libudev1 (>= 183), libyaml-0-2
+Recommends: libcamera-ipa (= 0.7.0-1ubuntu2)
+Breaks: libcamera0 (<< 0.0.3-1~)
+Replaces: libcamera0 (<< 0.0.3-1~)
+Filename: pool/main/l/libcamera0.7/libcamera0.7_0.7.0-1ubuntu2+t510.5_arm64.deb
+Size: 616090
+MD5sum: 00ef3ce30dbfa277ad6c098d32d4dfce
+SHA1: 4cec28b0abc36b9db2ebcc2a8ed8729a40e15c73
+SHA256: c349fd1e388fabf25f03b2881930df86b84e0b2888fa2b51fad34361cd340f94
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libcamera.org/
+Description: complex camera support library
+ libcamera is a complex camera support library which handles low-level
+ control of the camera devices, providing a unified higher-level
+ programming interface to the applications.
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+
+Package: t510-archive-keyring
+Version: 1
+Architecture: all
+Maintainer: chelovechishee <261262090+chelovechishee@users.noreply.github.com>
+Installed-Size: 8
+Filename: pool/main/t/t510-archive-keyring/t510-archive-keyring_1_all.deb
+Size: 1568
+MD5sum: 9fe7aad07a8258096b7ba471a9d8bbfd
+SHA1: 3a0b1f3652739e476eef85dc0d331f01398583b0
+SHA256: 311351a23313320f4b546812fa8a9286b7d205966c1782f08ed6f8d6783ef1d4
+Section: misc
+Priority: optional
+Homepage: https://github.com/chelovechishee/sm-t510-ubuntu
+Description: apt source and signing key of the SM-T510 Ubuntu packages
+ The repository with t510-support and t510-kernel, and the key its
+ packages are signed with.
+
+Package: t510-kernel
+Version: 7.3.0+82
+Architecture: arm64
+Maintainer: chelovechishee <261262090+chelovechishee@users.noreply.github.com>
+Installed-Size: 21292
+Filename: pool/main/t/t510-kernel/t510-kernel_7.3.0+82_arm64.deb
+Size: 7242864
+MD5sum: c5831b1dc0d83cfc740ecae6caf8ed82
+SHA1: e4ccef1fa6285a78d0964486d7883f537bd84033
+SHA256: 82a89ced14dc1b5219d8e67f1708d4c79bc401a20dcfc5709f9a8f8bfecfb2d6
+Section: kernel
+Priority: optional
+Homepage: https://github.com/chelovechishee/sm-t510-ubuntu
+Description: Linux kernel for the Samsung Galaxy Tab A 10.1 (2019, SM-T510)
+ Linux 7.3.0 with the SM-T510 patches, build #82, as a boot image
+ (kernel, device tree, initramfs). Installing it writes the image to the
+ BOOT partition and keeps the one it replaces in /var/lib/t510; the new
+ kernel starts with the next boot.
+
+Package: t510-kernel
+Version: 7.3.0+84
+Architecture: arm64
+Maintainer: chelovechishee <261262090+chelovechishee@users.noreply.github.com>
+Installed-Size: 21360
+Filename: pool/main/t/t510-kernel/t510-kernel_7.3.0+84_arm64.deb
+Size: 7250264
+MD5sum: 99fb08cf841f733efeca19c6aa72e8b1
+SHA1: 57d0a59fc676c88ad26bba75fcc65d4576e2e517
+SHA256: 9d5d5846e1dd06c32b1c26c249653d2ef05254878925dd1fa2e98c3fee7e044c
+Section: kernel
+Priority: optional
+Homepage: https://github.com/chelovechishee/sm-t510-ubuntu
+Description: Linux kernel for the Samsung Galaxy Tab A 10.1 (2019, SM-T510)
+ Linux 7.3.0 with the SM-T510 patches, build #84, as a boot image
+ (kernel, device tree, initramfs). Installing it writes the image to the
+ BOOT partition and keeps the one it replaces in /var/lib/t510; the new
+ kernel starts with the next boot.
+
+Package: t510-kernel
+Version: 7.3.0+94
+Architecture: arm64
+Maintainer: chelovechishee <261262090+chelovechishee@users.noreply.github.com>
+Installed-Size: 21496
+Filename: pool/main/t/t510-kernel/t510-kernel_7.3.0+94_arm64.deb
+Size: 7292140
+MD5sum: 0e0f2370c3bebe42b8d46fe3967cd00d
+SHA1: 1ee2e89afa2ca662f130ed62c7792ac3efa9ec87
+SHA256: fe6e5eb2d42caa4e229d8cd6484f466251bdf429fecb2bc9226cd7edf8b6955b
+Section: kernel
+Priority: optional
+Homepage: https://github.com/chelovechishee/sm-t510-ubuntu
+Description: Linux kernel for the Samsung Galaxy Tab A 10.1 (2019, SM-T510)
+ Linux 7.3.0 with the SM-T510 patches, build #94, as a boot image
+ (kernel, device tree, initramfs). Installing it writes the image to the
+ BOOT partition and keeps the one it replaces in /var/lib/t510; the new
+ kernel starts with the next boot.
+
+Package: t510-support
+Version: 0.10.1
+Architecture: arm64
+Maintainer: chelovechishee <261262090+chelovechishee@users.noreply.github.com>
+Installed-Size: 628
+Depends: hunspell-en-us, libc6, libx11-6, libxext6, libxfixes3, libxi6, libxtst6, onboard-data, python3, t510-archive-keyring
+Recommends: t510-kernel
+Filename: pool/main/t/t510-support/t510-support_0.10.1_arm64.deb
+Size: 41404
+MD5sum: dc888a6789cfd30fdd2d5caa0bf45dc8
+SHA1: 8fa88f28b587c14e3c154f83a6d9076976512513
+SHA256: 3bed60520c21f8424bc03196b624236c4da92664e4e0269a77dad7f7d6839401
+Section: misc
+Priority: optional
+Homepage: https://github.com/chelovechishee/sm-t510-ubuntu
+Description: Ubuntu on the Samsung Galaxy Tab A 10.1 (2019, SM-T510)
+ The tablet's services, udev rules and settings: USB networking, display
+ and rotation, audio, firmware from the VENDOR partition, power key,
+ long-press right click, word suggestions on the on-screen keyboard, Xfce
+ defaults for a touch screen.
+
+Package: t510-support
+Version: 0.11.0
+Architecture: arm64
+Maintainer: chelovechishee <261262090+chelovechishee@users.noreply.github.com>
+Installed-Size: 628
+Depends: hunspell-en-us, libc6, libx11-6, libxext6, libxfixes3, libxi6, libxtst6, onboard-data, python3, t510-archive-keyring
+Recommends: t510-kernel
+Filename: pool/main/t/t510-support/t510-support_0.11.0_arm64.deb
+Size: 41808
+MD5sum: a84a443851563d1fd982297db029d75f
+SHA1: d2aedadeb125ec2badcbbfcc6bf4983225f5188b
+SHA256: 76973a21f519334a95d04b029ae9e9fbad92f257e7df583c78eea2d6ba47f7fb
+Section: misc
+Priority: optional
+Homepage: https://github.com/chelovechishee/sm-t510-ubuntu
+Description: Ubuntu on the Samsung Galaxy Tab A 10.1 (2019, SM-T510)
+ The tablet's services, udev rules and settings: USB networking, display
+ and rotation, audio, firmware from the VENDOR partition, power key,
+ long-press right click, word suggestions on the on-screen keyboard, Xfce
+ defaults for a touch screen.
+
+Package: t510-support
+Version: 0.12.0
+Architecture: arm64
+Maintainer: chelovechishee <261262090+chelovechishee@users.noreply.github.com>
+Installed-Size: 712
+Depends: gstreamer1.0-gl, gstreamer1.0-gtk3, gstreamer1.0-libcamera, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, hunspell-en-us, libc6, libcamera-ipa (>= 0.7.0-1ubuntu2+t510.5), libcamera0.7 (>= 0.7.0-1ubuntu2+t510.5), libgstreamer1.0-0, libgtk-3-0t64, libspa-0.2-libcamera, libx11-6, libxext6, libxfixes3, libxi6, libxtst6, onboard-data, python3, t510-archive-keyring
+Recommends: t510-kernel
+Filename: pool/main/t/t510-support/t510-support_0.12.0_arm64.deb
+Size: 49412
+MD5sum: 7adbfe59bb10e8c8a155539b2b9ee910
+SHA1: e483935c2ec86c22ee9d8a5d1b4ee068fdf3c092
+SHA256: 9616ce328541ec314180c881c8eca02f69d8ccb45e2a3c47067d7b3f05d58501
+Section: misc
+Priority: optional
+Homepage: https://github.com/chelovechishee/sm-t510-ubuntu
+Description: Ubuntu on the Samsung Galaxy Tab A 10.1 (2019, SM-T510)
+ The tablet's services, udev rules and settings: USB networking, display
+ and rotation, audio, firmware from the VENDOR partition, power key,
+ long-press right click, word suggestions on the on-screen keyboard, Xfce
+ defaults for a touch screen.
+

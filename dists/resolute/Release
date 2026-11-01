@@ -1,0 +1,11 @@
+Origin: sm-t510-ubuntu
+Label: sm-t510-ubuntu
+Suite: resolute
+Codename: resolute
+Date: Sun, 01 Nov 2026 12:45:36 +0000
+Architectures: arm64
+Components: main
+Description: Ubuntu on the Samsung Galaxy Tab A 10.1 (2019, SM-T510)
+SHA256:
+ e20fc767c8490f52f0baf8817617fd3f0dd8cc381d32aea20a38ee3d54f1e9e0 8416 main/binary-arm64/Packages
+ fbfaec981bca6a1b09901970a30849411e5b3d610bd9b220ca8a79f76497d48d 2337 main/binary-arm64/Packages.gz
