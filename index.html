@@ -1,0 +1,9 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SM-T510 Ubuntu packages</title>
+<p>apt repository of <a href="https://github.com/chelovechishee/sm-t510-ubuntu">sm-t510-ubuntu</a>.
+Tablets installed from 0.7.1 on have it already. On 0.7.0:</p>
+<pre>curl -fLo /tmp/t510-archive-keyring.deb https://chelovechishee.github.io/sm-t510-ubuntu-apt/t510-archive-keyring.deb
+sudo apt install /tmp/t510-archive-keyring.deb
+sudo apt update
+sudo apt install t510-support t510-kernel</pre>

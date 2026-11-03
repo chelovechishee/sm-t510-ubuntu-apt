@@ -1,0 +1,21 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: sm-t510-ubuntu
+Label: sm-t510-ubuntu
+Suite: resolute
+Codename: resolute
+Date: Tue, 03 Nov 2026 18:14:55 +0000
+Architectures: arm64
+Components: main
+Description: Ubuntu on the Samsung Galaxy Tab A 10.1 (2019, SM-T510)
+SHA256:
+ 78ead385f52b3adee5ea907a0fb2cd811a582704e9a67837ff8f6488adb206f1 11159 main/binary-arm64/Packages
+ 34094bcaafc910b5d62c947fdf6a564e57c13cc7aee124de4db45a8577761617 2586 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQrOXjW6AeQdDYgfSpYg+rk87HnogUCauoknwAKCRBYg+rk87Hn
+opuFAQC9gBsXFrkZl9OfpYhpd+CbIB2fDsyvqVU2MeI+aQOo+AEAqyUfNi0Bk5Qy
+bZ9kjvOVvXwohymXtRCk9r36/ck4ZAo=
+=Mwml
+-----END PGP SIGNATURE-----
